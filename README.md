@@ -8,6 +8,7 @@ I used Express.js to handle routing and deployed the app to Heroku so other user
 
 ### Technologies
 
+* Node.js
 * Express.js
 * jQuery
 * Bootstrap
