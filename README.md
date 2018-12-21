@@ -8,15 +8,15 @@ I used Express.js to handle routing and deployed the app to Heroku so other user
 
 ### Technologies
 
-Express.js
-jQuery
-Bootstrap CSS Framework
-RegEx
-JSON
-AJAX
+* Express.js
+* jQuery
+* Bootstrap CSS Framework
+* RegEx
+* JSON
+* AJAX
 
 ### Deployed Link
 
 https://fathomless-inlet-59641.herokuapp.com/
 
-![FriendFinder] (friendfinder.png)
+![FriendFinder](friendfinder.png)
