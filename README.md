@@ -10,7 +10,7 @@ I used Express.js to handle routing and deployed the app to Heroku so other user
 
 * Express.js
 * jQuery
-* Bootstrap CSS Framework
+* Bootstrap
 * RegEx
 * JSON
 * AJAX
