@@ -18,6 +18,6 @@ I used Express.js to handle routing and deployed the app to Heroku so other user
 
 ### Deployed Link
 
-https://fathomless-inlet-59641.herokuapp.com/
+https://friend-finder-web-app.herokuapp.com
 
 ![FriendFinder](friendfinder.png)
