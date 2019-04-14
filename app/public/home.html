@@ -9,41 +9,53 @@
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <style>
-    body {
-        background-image: url('');
+        body {
+        background-image: url('https://github.com/zcdev/FriendFinder/blob/master/app/public/friends.jpg?raw=true');
         background-size: 100%;
         background-attachment: fixed;
         background-repeat: no-repeat;
+        background-position: center center;
+        background-color: #eee;
       }
+      .jumbotron, footer {
+        padding: 0 4rem 4rem 4rem;
+      }
+      footer {
+        position: absolute;
+        bottom: 0;
+      }
+      footer a, footer a:hover {
+        color: lightskyblue;
+        text-decoration: underline;
+      }
+    @media only screen and (min-width: 1200px) {
+      body {
+        background-position: center bottom;
+        padding-top: 30%;
+      }
+      .jumbotron {
+        color: #fff;
+        background-color: transparent;
+      }
+    }
   </style>
 </head>
 
 <body>
-
-  <div class="container">
-
+  <div>
     <div class="jumbotron">
       <h1>&#10084; Friend Finder</h1>
       <hr>
       <h2>Answer a few basic questions. </h2>
       <h2>Then find the friend with the greatest compatibility!</h2>
       <br>
-
       <div>
         <a href="/survey"><button type="button" class="btn btn-lg btn-danger"><h4>Go to Survey</h4></button></a>
       </div>
-
     </div>
-
     <footer class="footer">
-      <div class="container">
-        <p><a href="/api/friends" class="text-danger">API Friends List</a></p>
-      </div>
+      <p><a href="/api/friends" class="text-left">API Friends List</a></p>
     </footer>
-
-  </div>
-
-
 </body>
 
 </html>
