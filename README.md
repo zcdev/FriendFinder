@@ -20,4 +20,4 @@ I used Express.js to handle routing and deployed the app to Heroku so other user
 
 https://friend-finder-web-app.herokuapp.com
 
-![FriendFinder](friendfinder.png)
+![FriendFinder](https://github.com/zcdev/FriendFinder/blob/master/app/public/friendfinder.png?raw=true)
